@@ -1,5 +1,7 @@
 <?php
-echo "Hello, World!";
+echo "Hello, Worldddsfweedd!";
+ 
+
 
 // phpinfo();
 
@@ -20,7 +22,21 @@ echo "Hello, World!";
 <a href="index.php">Retour à la page d'accueil</a><br>
 <a href="01-code.php">Aller à la page de code</a><br>
 <a href="02-variable.php">Aller à la page des variables</a><br>
-<a href="03-datatype.php">Aller à la page des types de données</a>
-<a href="04-typedeclaration.php">Aller à la page de déclaration de types</a>
+<a href="03-datatype.php">Aller à la page des types de données</a><br>
+<a href="04-typedeclaration.php">Aller à la page de déclaration de types</a> <br>
+<a href="traitement.php">Aller à la page de traitement</a><br>
+<a href="forms-sers-input.php">Aller à la page des formulaires</a><br>
+
+
+
+
+<form action="traitement.php" method="POST">
+  <input type="text" name="nom"  />
+  <input type="email" name="email"  />
+  <textarea name="message"></textarea>
+  <button type="submit" name="soumettre">Envoyer</button>
+</form>
+
+
 </body>
 </html>
